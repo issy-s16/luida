@@ -15,8 +15,7 @@ Overview
 
 ## Install
 ```
-docker build -t issy_s16/luida .
-docker run -d -p 80:3000 --name luida -v "$PWD":/usr/src/luida issy_s16/luida
+docker-compose up -d
 ```
 
 ## Contribution
