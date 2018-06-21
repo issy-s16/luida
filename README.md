@@ -1,24 +1,28 @@
-# README
+Luida
+====
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Overview
 
-Things you may want to cover:
+## Description
 
-* Ruby version
+## Demo
 
-* System dependencies
+## VS. 
 
-* Configuration
+## Requirement
 
-* Database creation
+## Usage
 
-* Database initialization
+## Install
+```
+docker build -t issy_s16/luida .
+docker run -d -p 80:3000 --name luida -v "$PWD":/usr/src/luida issy_s16/luida
+```
 
-* How to run the test suite
+## Contribution
 
-* Services (job queues, cache servers, search engines, etc.)
+## Licence
 
-* Deployment instructions
+## Author
 
-* ...
+[issy_s16](https://github.com/issy-s16)
