@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  background-color: #F1F4F5;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 0.1em;
+}
+
+.container {
+}
