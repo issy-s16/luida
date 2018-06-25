@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+#
+
+Product.create(title: 'Luida', description: 'OSSをドライブさせる画期的なサービス', repository_url: 'https://github.com/issy-s16/luida', author: 'issy_s16')
